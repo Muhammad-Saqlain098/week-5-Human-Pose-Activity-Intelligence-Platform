@@ -1,0 +1,184 @@
+{
+  "experiment_2_keypoint_threshold": {
+    "0.2": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07099942093627003,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "0.4": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07001600906294907,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "0.6": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07118261739663012,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    }
+  },
+  "experiment_3_sequence_length": {
+    "15": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.06804900979204831,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "30": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07196202958456392,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "60": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07425906968620666,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    }
+  },
+  "experiment_4_temporal_smoothing": {
+    "smoothed": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07021442552137103,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      },
+      "avg_transitions_per_scenario": 1.15625
+    },
+    "frame_level": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07271441312511229,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      },
+      "avg_transitions_per_scenario": 1.46875
+    }
+  },
+  "experiment_5_fall_confirmation_time": {
+    "0.2": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07381033833425477,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "0.6": {
+      "overall_accuracy": 0.75,
+      "avg_latency_per_frame_ms": 0.07088256874932124,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 1.0,
+        "fallen": 1.0,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    },
+    "1.2": {
+      "overall_accuracy": 0.59375,
+      "avg_latency_per_frame_ms": 0.07252788385436304,
+      "avg_keypoint_failure_rate": 0.0,
+      "per_class_f1": {
+        "bending": 0.5454545454545454,
+        "fallen": null,
+        "hand_raised": 1.0,
+        "none": null,
+        "sitting": null,
+        "squatting": 0.4444444444444445,
+        "standing": 0.6666666666666666,
+        "walking": 0.8571428571428571
+      }
+    }
+  },
+  "experiment_6_camera_angle_proxy": {
+    "normal": 0.8421052631578947,
+    "occlusion": 0.6666666666666666,
+    "low_light": 0.6,
+    "fast_movement": 1.0,
+    "partial_visibility": 0.0
+  }
+}

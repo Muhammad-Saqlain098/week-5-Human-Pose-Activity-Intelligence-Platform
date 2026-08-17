@@ -1,0 +1,4 @@
+id,person_id,activity,start_time,end_time,duration,confidence,source_id,evidence_path,alert_status
+32,1,standing,1787007392.4799716,,,1.0,sample_videos/demo_synthetic.mp4,,none
+30,1,standing,1787007381.779204,1787007391.132087,9.352883100509644,1.0,sample_videos/demo_synthetic.mp4,,none
+17,1,standing,1787004790.3672242,,,1.0,sample_videos/demo_synthetic.mp4,,none

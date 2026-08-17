@@ -1,0 +1,544 @@
+{
+  "num_scenarios": 32,
+  "overall_accuracy": 0.75,
+  "per_class": {
+    "bending": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fallen": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "hand_raised": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "none": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.0,
+      "recall": null,
+      "f1": null
+    },
+    "sitting": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "precision": null,
+      "recall": 0.0,
+      "f1": null
+    },
+    "squatting": {
+      "tp": 2,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445
+    },
+    "standing": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "walking": {
+      "tp": 6,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1": 0.8571428571428571
+    }
+  },
+  "confusion_matrix": {
+    "bending": {
+      "bending": 3,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 0,
+      "walking": 0
+    },
+    "fallen": {
+      "bending": 0,
+      "fallen": 5,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 0,
+      "walking": 0
+    },
+    "hand_raised": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 5,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 0,
+      "walking": 0
+    },
+    "none": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 0,
+      "walking": 0
+    },
+    "sitting": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 5,
+      "standing": 0,
+      "walking": 0
+    },
+    "squatting": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 2,
+      "standing": 0,
+      "walking": 0
+    },
+    "standing": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 1,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 3,
+      "walking": 2
+    },
+    "walking": {
+      "bending": 0,
+      "fallen": 0,
+      "hand_raised": 0,
+      "none": 0,
+      "sitting": 0,
+      "squatting": 0,
+      "standing": 0,
+      "walking": 6
+    }
+  },
+  "avg_latency_per_frame_ms": 0.8846155424059058,
+  "avg_keypoint_failure_rate": 0.0,
+  "raw_results": [
+    {
+      "scenario": "standing_1",
+      "difficulty": "normal",
+      "ground_truth": "standing",
+      "predicted": "standing",
+      "activity_hit_counts": {
+        "standing": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 1.262619998306036
+    },
+    {
+      "scenario": "standing_2",
+      "difficulty": "normal",
+      "ground_truth": "standing",
+      "predicted": "standing",
+      "activity_hit_counts": {
+        "standing": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.9124520048499107
+    },
+    {
+      "scenario": "standing_3",
+      "difficulty": "normal",
+      "ground_truth": "standing",
+      "predicted": "standing",
+      "activity_hit_counts": {
+        "standing": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 1.1795679945498705
+    },
+    {
+      "scenario": "standing_4",
+      "difficulty": "occlusion",
+      "ground_truth": "standing",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 19
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 1.0647640004754066
+    },
+    {
+      "scenario": "standing_5",
+      "difficulty": "low_light",
+      "ground_truth": "standing",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "standing": 2,
+        "walking": 19
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.989196002483368
+    },
+    {
+      "scenario": "sitting_1",
+      "difficulty": "normal",
+      "ground_truth": "sitting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.6914120074361563
+    },
+    {
+      "scenario": "sitting_2",
+      "difficulty": "normal",
+      "ground_truth": "sitting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.7329360023140907
+    },
+    {
+      "scenario": "sitting_3",
+      "difficulty": "normal",
+      "ground_truth": "sitting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.8049040008336306
+    },
+    {
+      "scenario": "sitting_4",
+      "difficulty": "occlusion",
+      "ground_truth": "sitting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.7438040059059858
+    },
+    {
+      "scenario": "sitting_5",
+      "difficulty": "low_light",
+      "ground_truth": "sitting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.972251994535327
+    },
+    {
+      "scenario": "walking_1",
+      "difficulty": "normal",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 30,
+      "latency_per_frame_ms": 1.1604500003159046
+    },
+    {
+      "scenario": "walking_2",
+      "difficulty": "normal",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 30,
+      "latency_per_frame_ms": 1.075903334033986
+    },
+    {
+      "scenario": "walking_3",
+      "difficulty": "normal",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 30,
+      "latency_per_frame_ms": 1.0405033361166716
+    },
+    {
+      "scenario": "walking_4",
+      "difficulty": "occlusion",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 30,
+      "latency_per_frame_ms": 1.2592566665261984
+    },
+    {
+      "scenario": "walking_5",
+      "difficulty": "low_light",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 30,
+      "latency_per_frame_ms": 0.7888333328689138
+    },
+    {
+      "scenario": "hand_raised_1",
+      "difficulty": "normal",
+      "ground_truth": "hand_raised",
+      "predicted": "hand_raised",
+      "activity_hit_counts": {
+        "hand_raised": 11
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 0.7625466678291559
+    },
+    {
+      "scenario": "hand_raised_2",
+      "difficulty": "normal",
+      "ground_truth": "hand_raised",
+      "predicted": "hand_raised",
+      "activity_hit_counts": {
+        "hand_raised": 11
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 1.0271533392369747
+    },
+    {
+      "scenario": "hand_raised_3",
+      "difficulty": "normal",
+      "ground_truth": "hand_raised",
+      "predicted": "hand_raised",
+      "activity_hit_counts": {
+        "hand_raised": 11
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 1.2461466559519372
+    },
+    {
+      "scenario": "hand_raised_4",
+      "difficulty": "occlusion",
+      "ground_truth": "hand_raised",
+      "predicted": "hand_raised",
+      "activity_hit_counts": {
+        "hand_raised": 11
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 0.9386666739980379
+    },
+    {
+      "scenario": "hand_raised_5",
+      "difficulty": "low_light",
+      "ground_truth": "hand_raised",
+      "predicted": "hand_raised",
+      "activity_hit_counts": {
+        "hand_raised": 11
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 0.847266661003232
+    },
+    {
+      "scenario": "fallen_1",
+      "difficulty": "normal",
+      "ground_truth": "fallen",
+      "predicted": "fallen",
+      "activity_hit_counts": {
+        "bending": 4,
+        "fallen": 8
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.580275000538677
+    },
+    {
+      "scenario": "fallen_2",
+      "difficulty": "normal",
+      "ground_truth": "fallen",
+      "predicted": "fallen",
+      "activity_hit_counts": {
+        "bending": 4,
+        "fallen": 8
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.8078949991613626
+    },
+    {
+      "scenario": "fallen_3",
+      "difficulty": "normal",
+      "ground_truth": "fallen",
+      "predicted": "fallen",
+      "activity_hit_counts": {
+        "bending": 4,
+        "fallen": 8
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.713925005402416
+    },
+    {
+      "scenario": "fallen_4",
+      "difficulty": "occlusion",
+      "ground_truth": "fallen",
+      "predicted": "fallen",
+      "activity_hit_counts": {
+        "bending": 4,
+        "fallen": 8
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.7461449946276844
+    },
+    {
+      "scenario": "fallen_5",
+      "difficulty": "low_light",
+      "ground_truth": "fallen",
+      "predicted": "fallen",
+      "activity_hit_counts": {
+        "bending": 4,
+        "fallen": 8
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.7904600002802908
+    },
+    {
+      "scenario": "bending_1",
+      "difficulty": "normal",
+      "ground_truth": "bending",
+      "predicted": "bending",
+      "activity_hit_counts": {
+        "bending": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.7521080039441586
+    },
+    {
+      "scenario": "bending_2",
+      "difficulty": "normal",
+      "ground_truth": "bending",
+      "predicted": "bending",
+      "activity_hit_counts": {
+        "bending": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.6770240049809217
+    },
+    {
+      "scenario": "bending_3",
+      "difficulty": "occlusion",
+      "ground_truth": "bending",
+      "predicted": "bending",
+      "activity_hit_counts": {
+        "bending": 21
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.8151760045439005
+    },
+    {
+      "scenario": "squatting_1",
+      "difficulty": "normal",
+      "ground_truth": "squatting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.7440999988466501
+    },
+    {
+      "scenario": "squatting_2",
+      "difficulty": "normal",
+      "ground_truth": "squatting",
+      "predicted": "squatting",
+      "activity_hit_counts": {
+        "squatting": 24
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 25,
+      "latency_per_frame_ms": 0.6940279994159937
+    },
+    {
+      "scenario": "walking_fast",
+      "difficulty": "fast_movement",
+      "ground_truth": "walking",
+      "predicted": "walking",
+      "activity_hit_counts": {
+        "walking": 9
+      },
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 15,
+      "latency_per_frame_ms": 0.9012466606994469
+    },
+    {
+      "scenario": "standing_partial_visibility",
+      "difficulty": "partial_visibility",
+      "ground_truth": "standing",
+      "predicted": "none",
+      "activity_hit_counts": {},
+      "keypoint_failure_rate": 0.0,
+      "total_frames": 20,
+      "latency_per_frame_ms": 0.5846800049766898
+    }
+  ]
+}

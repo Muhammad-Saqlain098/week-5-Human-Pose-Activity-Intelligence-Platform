@@ -1,0 +1,65 @@
+{
+  "num_people_tracked_independently": 3,
+  "final_snapshot": [
+    {
+      "person_id": 1,
+      "current_activity": "standing",
+      "previous_activity": null,
+      "active_alerts": [],
+      "squat_count": 0,
+      "motion": 0.004,
+      "last_seen": 1.2666666666666666
+    },
+    {
+      "person_id": 2,
+      "current_activity": "walking",
+      "previous_activity": null,
+      "active_alerts": [],
+      "squat_count": 0,
+      "motion": 0.0623,
+      "last_seen": 1.6
+    },
+    {
+      "person_id": 3,
+      "current_activity": "squatting",
+      "previous_activity": "walking",
+      "active_alerts": [],
+      "squat_count": 2,
+      "motion": 0.0825,
+      "last_seen": 1.4
+    }
+  ],
+  "person_timelines": {
+    "1": [
+      {
+        "activity": "standing",
+        "start_time": 0.26666666666666666,
+        "end_time": null
+      }
+    ],
+    "2": [
+      {
+        "activity": "walking",
+        "start_time": 0.4,
+        "end_time": null
+      }
+    ],
+    "3": [
+      {
+        "activity": "squatting",
+        "start_time": 0.26666666666666666,
+        "end_time": 0.8666666666666667
+      },
+      {
+        "activity": "walking",
+        "start_time": 0.8666666666666667,
+        "end_time": 1.0
+      },
+      {
+        "activity": "squatting",
+        "start_time": 1.0,
+        "end_time": null
+      }
+    ]
+  }
+}
