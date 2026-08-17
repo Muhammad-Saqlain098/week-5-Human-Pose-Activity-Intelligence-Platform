@@ -1,0 +1,109 @@
+pose-activity-platform/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── config.py
+│   │
+│   ├── vision/
+│   │   ├── __init__.py
+│   │   ├── pose_estimator.py
+│   │   ├── person_tracker.py
+│   │   └── video_source.py
+│   │
+│   ├── pose/
+│   │   ├── __init__.py
+│   │   ├── keypoints.py
+│   │   ├── angles.py
+│   │   ├── normalization.py
+│   │   └── sequence.py
+│   │
+│   ├── activities/
+│   │   ├── __init__.py
+│   │   ├── base_activity.py
+│   │   ├── standing.py
+│   │   ├── sitting.py
+│   │   ├── walking.py
+│   │   ├── fall.py
+│   │   ├── hand_raise.py
+│   │   ├── bending.py
+│   │   └── squatting.py
+│   │
+│   ├── events/
+│   │   ├── __init__.py
+│   │   ├── activity_manager.py
+│   │   ├── evidence.py
+│   │   └── alerts.py
+│   │
+│   ├── database/
+│   │   ├── __init__.py
+│   │   └── database.py
+│   │
+│   └── dashboard/
+│       ├── __init__.py
+│       └── dashboard.py
+│
+├── tests/
+│   ├── test_angles.py
+│   ├── test_keypoints.py
+│   ├── test_normalization.py
+│   ├── test_activities.py
+│   ├── test_fall.py
+│   ├── test_state.py
+│   ├── test_counter.py
+│   └── test_database.py
+│
+├── evaluation/
+│   ├── scenarios/
+│   ├── results/
+│   ├── evaluate.py
+│   └── confusion_matrix.py
+│
+├── docs/
+│   ├── architecture.md
+│   ├── activity_rules.md
+│   ├── state_management.md
+│   ├── experiments.md
+│   └── performance.md
+│
+├── sample_videos/
+├── screenshots/
+├── evidence/
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .env.example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+python -m app.main --source sample_videos/demo_synthetic.mp4
+
+
+python -m app.main --source sample_videos/demo_synthetic.mp4 --record annotated_check.mp4
+
+streamlit run app/dashboard/dashboard.py
